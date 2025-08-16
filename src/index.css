@@ -1,0 +1,28 @@
+@font-face {
+    font-family: RD2;
+    src: url('assets/Vazirmatn[wght].woff2');
+}
+
+* {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: RD;
+    src: url('assets/Vazirmatn-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: RD2;
+
+}
+
+.cardhover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgb(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+
+}
