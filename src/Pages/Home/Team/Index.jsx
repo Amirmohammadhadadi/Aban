@@ -23,7 +23,7 @@ export default function Team() {
 
             <Swiper
 
-                style={{ height: '420px', paddingBlock: "20px", paddingInline: '8px', width: "85%", transition: ' all 0.5s ease' }}
+                style={{ height: '420px', paddingBlock: "20px", paddingInline: '8px', width: "%", transition: ' all 0.5s ease' }}
 
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
