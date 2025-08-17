@@ -30,7 +30,7 @@ export default function Comments() {
 
                 <Swiper
 
-                    style={{ height: '350px', paddingTop: "30px", paddingBottom: "30px", paddingInline: '8px', width: "85%", transition: 'all 0.5s ease' }}
+                    style={{ height: '350px', paddingTop: "30px", paddingBottom: "30px", paddingInline: '8px', width: "90%", transition: 'all 0.5s ease' }}
 
                     // install Swiper modules
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
