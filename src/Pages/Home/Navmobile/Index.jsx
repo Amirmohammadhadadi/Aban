@@ -29,8 +29,7 @@ export default function NavMobile() {
                         <ListItemButton sx={{ fontFamily: 'RD2' }}>تیم ما</ListItemButton>
                         <ListItemButton sx={{ fontFamily: 'RD2' }}>نظرات بیماران </ListItemButton>
                         <ListItemButton sx={{ fontFamily: 'RD2' }}>تماس با ما</ListItemButton>
-                        {/* <Link to={token ? 'adminpage' : '/login'}><ListItemButton sx={{ fontFamily: 'RD2' }}>ورود ادمین</ListItemButton></Link> */}
-                        <Link to={'/adminpage'} ><ListItemButton sx={{ fontFamily: 'RD2' }}>ورود ادمین</ListItemButton></Link>
+                        <Link to={token ? 'adminpage' : '/login'}><ListItemButton sx={{ fontFamily: 'RD2' }}>ورود ادمین</ListItemButton></Link>
                     </List>
 
                 </Drawer>
